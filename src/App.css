@@ -1,0 +1,73 @@
+
+body {
+  background: radial-gradient(#e66465, #9198e5);
+  font-family: "Lato",san-serif;
+}
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.news-container{
+  margin-top: 30px;
+}
+form
+.news-card{
+  background-color: #fff;
+  border-radius: 10px;
+  padding:12px 16px 20px;
+  margin-bottom: 10px;
+}
+.news-card h3{
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color:#1c1e29;
+}
+.search-form input{
+  padding:10px 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.search-form input:focus{
+  outline: none;
+}
+.search-form button{
+  padding: 10px 20px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.pagination{
+  position: fixed;
+  bottom: 0;
+  left:0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(14, 4, 37);
+  width: 100%;
+  padding: 20px 10px;
+  margin: 0;
+  list-style:none;
+}
+.pagination a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid white;
+  margin: 0 8px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #fff;
+  color:#1c1e29;
+  text-decoration: none;
+  padding:10px 12px;
+}
+.pagination a:hover{
+  background-color: #ccc;
+  color: #fff;
+}
+.active-page{
+  background-color: #ccc;
+  color: #fff;
+}
+
