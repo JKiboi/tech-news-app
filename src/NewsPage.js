@@ -48,7 +48,7 @@ const NewsPage = () => {
 
   return (
     <div className='container'>
-        <h1>Tech News</h1>
+        <h1>Tech News App</h1>
         <form className="search-form" onSubmit={handleSubmit}>
             <input
             placeholder='Search news'
